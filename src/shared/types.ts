@@ -2,13 +2,13 @@ import { User } from "firebase/auth";
 
 export const defaultConfig: Config = {
     userAgent: "",
-    autofocus: false,
-    automute: false,
+    autofocus: true,
+    automute: true,
     notify: true,
     rpcEnabled: true,
-    informed: false,
+    informed: true,
     accentColor: "",
-    inactivityNotification: false,
+    inactivityNotification: true,
 };
 
 export interface Config {
